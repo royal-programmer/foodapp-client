@@ -54,5 +54,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://foodapp-server-topaz.vercel.app/" || "http://127.0.0.1:4000" ,
+  "proxy": "https://foodapp-server-topaz.vercel.app/",
 }
