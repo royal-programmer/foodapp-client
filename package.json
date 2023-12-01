@@ -2,6 +2,13 @@
   "name": "foodie",
   "version": "1.0.0",
   "description": "Food Ordering Website using MERN Stack.This website is created for particular restaurant i.e Zyka.",
+  "main": "app.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "author": "Ratul Roy a.k.a royal-programmer",
   "license": "ISC",
   "private": true,
@@ -30,12 +37,6 @@
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
   },
-    "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -54,5 +55,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://foodapp-server-topaz.vercel.app/",
+  "proxy": "https://foodapp-server-topaz.vercel.app/"
 }
