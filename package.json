@@ -54,5 +54,11 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://foodapp-server-topaz.vercel.app/"
+  "proxy": "https://foodapp-server-topaz.vercel.app/",
+  "engines": {
+    "npm": ">=8.7.0"
+  },
+  "overrides": {
+    "react": "$react"
+  }
 }
